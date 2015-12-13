@@ -17,7 +17,7 @@ public class GameOverScreen : MonoBehaviour {
 			Color c = GetComponent<Image> ().color;
 			c.a += Time.deltaTime;
 			GetComponent<Image>().color = c;
-			transform.GetChild (0).GetComponent<Text> ().text = "Game Over" + System.Environment.NewLine + "You survived for" + elapsedTime.ToString("0.00")
+			transform.GetChild (0).GetComponent<Text> ().text = "Game Over" + System.Environment.NewLine + "You survived for " + elapsedTime.ToString("0.00")
 				+ " months."+ System.Environment.NewLine + "Press Enter to restart";
 		}
 	}
