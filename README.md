@@ -1,3 +1,2 @@
-# Planet-under-siege
-This is a game i made over 48 hours for Ludum Dare 34 compo.
-The theme was Two button controls.
+# PUSiege
+this is a WebGL build of Planet Under Siege, a game I created for Ludum Dare 34 with the theme "Two button controls"
